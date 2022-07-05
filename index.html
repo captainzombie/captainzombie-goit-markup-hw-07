@@ -11,7 +11,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,6 +20,7 @@
       rel="stylesheet"
     />
     <title>WEB-Studio</title>
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!-- Header -->
@@ -28,27 +28,27 @@
       <div class="container">
         <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
         <nav class="nav">
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link link current">Студия</a>
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link link current">Студия</a>
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link link">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link link">Портфолио</a>
             </li>
-            <li class="nav-item">
-              <a href="#footer" class="nav-link link">Контакты</a>
+            <li class="nav__item">
+              <a href="#footer" class="nav__link link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contacts list">
-          <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="contacts-link-header link">
-              <svg class="contacts-icon" height="12" width="16">
+        <ul class="contacts__list list">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link--header link">
+              <svg class="contacts__icon" height="12" width="16">
                 <use href="./images/icons.svg#icon-envelope-hover"></use></svg>info@devstudio.com</a>
           </li>
-          <li class="contacts-item">
-            <a href="tel:+380961111111" class="contacts-link-header link">
-              <svg class="contacts-icon" width="10" height="16">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link--header link">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-Vector"></use></svg>+38 096 111 11 11</a>
           </li>
         </ul>
@@ -67,50 +67,50 @@
       <!-- Преимущества -->
       <section class="benefits">
         <div class="container">
-          <ul class="benefits-icon-list list">
-            <li class="benefits-icon-item">
+          <ul class="benefits-icon__list list">
+            <li class="benefits-icon__item">
               <svg width="70" height="70">
                 <use href="./images/icons.svg#icon-Group"></use>
               </svg>
             </li>
-            <li class="benefits-icon-item">
+            <li class="benefits-icon__item">
               <svg width="70" height="70">
                 <use href="./images/icons.svg#icon-clock-1"></use>
               </svg>
             </li>
-            <li class="benefits-icon-item">
+            <li class="benefits-icon__item">
               <svg width="70" height="70">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
             </li>
-            <li class="benefits-icon-item">
+            <li class="benefits-icon__item">
               <svg width="70" height="70">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
             </li>
           </ul>
-          <ul class="benefits-list list">
-            <li class="benefits-item">
-              <h3 class="benefits-title title">Внимание к деталям</h3>
-              <p class="benefits-text">
+          <ul class="benefits__list list">
+            <li class="benefits__item">
+              <h3 class="benefits__title title">Внимание к деталям</h3>
+              <p class="benefits__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="benefits-item">
-              <h3 class="benefits-title title">Пунктуальность</h3>
-              <p class="benefits-text">
+            <li class="benefits__item">
+              <h3 class="benefits__title title">Пунктуальность</h3>
+              <p class="benefits__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="benefits-item">
-              <h3 class="benefits-title title">Планирование</h3>
-              <p class="benefits-text">
+            <li class="benefits__item">
+              <h3 class="benefits__title title">Планирование</h3>
+              <p class="benefits__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="benefits-item">
-              <h3 class="benefits-title title">Современные технологии</h3>
-              <p class="benefits-text">
+            <li class="benefits__item">
+              <h3 class="benefits__title title">Современные технологии</h3>
+              <p class="benefits__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -119,28 +119,28 @@
       </section>
 
       <!-- Чем занимаемся -->
-      <section class="work section">
+      <section class="section">
         <div class="container">
           <h2 class="pre-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
-            <li class="work-item">
-              <div class="top-text-wrap">
+            <li class="work__item">
+              <div class="work-top-wrap">
                 <img src="./images/box1.jpg" alt="разработка" width="370" />
-                <p class="work-top-text">Десктопные приложения</p>
+                <p class="work-top-wrap__text">Десктопные приложения</p>
               </div>
             </li>
 
-            <li class="work-item">
-              <div class="top-text-wrap">
+            <li class="work__item">
+              <div class="work-top-wrap">
                 <img src="./images/box2.jpg" alt="приложения" width="370" />
-                <p class="work-top-text">Мобильные приложения</p>
+                <p class="work-top-wrap__text">Мобильные приложения</p>
               </div>
             </li>
 
-            <li class="work-item">
-              <div class="top-text-wrap">
+            <li class="work__item">
+              <div class="work-top-wrap">
                 <img src="./images/box3.jpg" alt="дизайн" width="370" />
-                <p class="work-top-text">Дизайнерские решения</p>
+                <p class="work-top-wrap__text">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -361,44 +361,44 @@
         <div>
           <a href="#" class="logo">Web<span class="logo-footer">Studio</span></a>
           <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-          <ul class="footer-list list">
-            <li class="footer-item">
-              <a href="mailto:info@devstudio.com" class="contacts-link-footer link"
+          <ul class="footer__list list">
+            <li class="footer__item">
+              <a href="mailto:info@devstudio.com" class="contacts__link--footer link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="footer-item">
-              <a href="tel:+380961111111" class="contacts-link-footer link">+38 096 111 11 11</a>
+            <li class="footer__item">
+              <a href="tel:+380961111111" class="contacts__link--footer link">+38 096 111 11 11</a>
             </li>
           </ul>
         </div>
 
-        <div class="footer-social">
-          <h3 class="footer-soc-title">Присоединяйтесь</h3>
+        <div class="footer-soc">
+          <h3 class="footer-soc__title">Присоединяйтесь</h3>
           <ul class="footer-icon-list list">
-            <li class="footer-icon-item">
-              <a href="https://www.instagram.com/" class="footer-icon-link link" target="_blank">
+            <li class="footer-icon__item">
+              <a href="https://www.instagram.com/" class="footer-icon__link link" target="_blank">
                 <svg height="20" width="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-item">
-              <a href="https://twitter.com/" class="footer-icon-link link" target="_blank">
+            <li class="footer-icon__item">
+              <a href="https://twitter.com/" class="footer-icon__link link" target="_blank">
                 <svg height="20" width="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-item">
-              <a href="https://www.facebook.com/" class="footer-icon-link link" target="_blank">
+            <li class="footer-icon__item">
+              <a href="https://www.facebook.com/" class="footer-icon__link link" target="_blank">
                 <svg height="20" width="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-item">
-              <a href="https://www.linkedin.com/" class="footer-icon-link link" target="_blank">
+            <li class="footer-icon__item">
+              <a href="https://www.linkedin.com/" class="footer-icon__link link" target="_blank">
                 <svg height="20" width="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -407,13 +407,13 @@
           </ul>
         </div>
         <div class="email-list-wrap">
-          <p class="email-list-label">Подпишитесь на рассылку</p>
+          <p class="email-list__label">Подпишитесь на рассылку</p>
           <div class="email-form-wrap">
             <form class="email-form">
-              <input class="email-input" type="email" name="email" placeholder="E-mail" />
-              <button class="mail-list-btn" type="submit">
+              <input class="email-form__input" type="email" name="email" placeholder="E-mail" />
+              <button class="email-list__btn" type="submit">
                 Подписаться
-                <svg class="email-list-icon" height="24" width="24">
+                <svg class="email-list__icon" height="24" width="24">
                   <use href="./images/icons.svg#icon-icon-send"></use>
                 </svg>
               </button>
